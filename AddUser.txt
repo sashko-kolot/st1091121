@@ -26,3 +26,6 @@ AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.co
 
 ''Invalid input - missing password
 AddUser "rnsmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+
+''Invalid input - invalid email
+AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmithsample.com"
